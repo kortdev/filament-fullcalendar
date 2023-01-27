@@ -1,12 +1,12 @@
 {
-    "name": "saade/filament-fullcalendar",
-    "description": "The Most Popular JavaScript Calendar integrated with Filament 💛",
+    "name": "marshmallow/filament-fullcalendar",
+    "description": "A fork of The Most Popular JavaScript Calendar integrated with Filament 💛",
     "keywords": [
-        "saade",
+        "marshmallow",
         "laravel",
         "filament-fullcalendar"
     ],
-    "homepage": "https://github.com/saade/filament-fullcalendar",
+    "homepage": "https://github.com/marshmallow-packages/filament-fullcalendar",
     "license": "MIT",
     "authors": [
         {
@@ -15,7 +15,7 @@
             "role": "Developer"
         }
     ],
-     "require": {
+    "require": {
         "php": "^8.0",
         "filament/filament": "^2.0",
         "illuminate/contracts": "^8.73|^9.0",
