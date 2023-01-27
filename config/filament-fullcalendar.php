@@ -22,6 +22,7 @@ return [
     'weekNumberFormat' => [
         "week" => 'narrow'
     ],
+    'displayEventTime' => true,
 
     'navLinks' => true,
 
@@ -31,5 +32,10 @@ return [
 
     'dayMaxEvents' => true,
 
-    'displayEventTime' => false,
+    'eventTimeFormat' => [
+        "hour" => '2-digit',
+        "minute" => '2-digit',
+        "omitZeroMinute" => false,
+        "hour12" => false,
+    ],
 ];
