@@ -14,14 +14,22 @@ return [
     'headerToolbar' => [
         'left' => 'prev,next today',
         'center' => 'title',
-        'right' => 'dayGridMonth,dayGridWeek,dayGridDay',
+        // 'right' => 'dayGridMonth,dayGridWeek,dayGridDay,list,resourceTimeGridDay,resourceTimeGridWeek,resourceTimeGridMonth',
+        'right' => 'dayGridMonth,dayGridWeek,listWeek',
+    ],
+
+    'weekNumbers' => true,
+    'weekNumberFormat' => [
+        "week" => 'narrow'
     ],
 
     'navLinks' => true,
 
-    'editable' => true,
+    'editable' => false,
 
     'selectable' => false,
 
     'dayMaxEvents' => true,
+
+    'displayEventTime' => false,
 ];
