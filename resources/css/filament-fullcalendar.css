@@ -95,7 +95,8 @@
     --fc-border-color: #6b728050;
 }
 
-.filament-fullcalendar--calendar.fc th {
+.filament-fullcalendar--calendar.fc th,
+.fc-theme-standard .fc-list-day-cushion {
     @apply dark:border-gray-400 dark:bg-gray-200/10 bg-gray-200/10;
 }
 

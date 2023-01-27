@@ -267,12 +267,14 @@
     --fc-border-color: #6b728050;
 }
 
-.filament-fullcalendar--calendar.fc th {
+.filament-fullcalendar--calendar.fc th,
+.fc-theme-standard .fc-list-day-cushion {
     background-color: rgb(229 231 235 / 0.1);
 }
 
 @media (prefers-color-scheme: dark) {
-    .filament-fullcalendar--calendar.fc th {
+    .filament-fullcalendar--calendar.fc th,
+.fc-theme-standard .fc-list-day-cushion {
         --tw-border-opacity: 1;
         border-color: rgb(156 163 175 / var(--tw-border-opacity));
         background-color: rgb(229 231 235 / 0.1);
