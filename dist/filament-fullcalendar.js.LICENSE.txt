@@ -1,5 +1,5 @@
 /*!
-FullCalendar v5.11.3
+FullCalendar v5.11.4
 Docs & License: https://fullcalendar.io/
 (c) 2022 Adam Shaw
 */
@@ -16,4 +16,4 @@ Docs & License: https://fullcalendar.io/
 
 //! moment.js locale configuration
 
-//! version : 0.5.37
+//! version : 0.5.40
